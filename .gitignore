@@ -1,0 +1,18 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Data and models
+data/raw/
+data/processed/
+models/*.pkl
+models/*.joblib
+
+# Notebooks / editor
+.ipynb_checkpoints/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
