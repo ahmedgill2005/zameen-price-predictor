@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MODEL_PATH = ROOT / "models" / "price_model.joblib"
 LOCS_PATH = ROOT / "models" / "locations.csv"
 FEATS = ["city", "loc_key", "log_area", "bedrooms", "baths", "latitude", "longitude"]
-TYPICAL_ERROR = 0.105  # median error on the test set
+TYPICAL_ERROR = 0.103  # median error on the test set
 
 st.set_page_config(page_title="Pakistan House Price Predictor", page_icon="🏠")
 
